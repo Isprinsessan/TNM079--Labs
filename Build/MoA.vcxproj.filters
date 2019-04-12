@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\DecimationMesh.cpp">
+      <Filter>Decimation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\QuadricDecimationMesh.cpp">
+      <Filter>Decimation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\SimpleDecimationMesh.cpp">
+      <Filter>Decimation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\HalfEdgeMesh.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\Mesh.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\SimpleMesh.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\LineStrip.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\FrameMain.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLAxis.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLGridPlane.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLObject.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLViewer.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\TrilinearInterpolator.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\AdaptiveLoopSubdivisionMesh.cpp">
+      <Filter>Subdivision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\LoopSubdivisionMesh.cpp">
+      <Filter>Subdivision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\UniformCubicSpline.cpp">
+      <Filter>Subdivision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\UniformCubicSplineSubdivisionCurve.cpp">
+      <Filter>Subdivision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\BlackWhiteColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\ColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\ColorMapFactory.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\GLObjectPlayback.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\GreenRedColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Heap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\HotColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\HSVColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\IsoContourColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\JetColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\MarchingCubes.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\ObjIO.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\trackball.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Console.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\main.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\DecimationInterface.h">
+      <Filter>Decimation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\DecimationMesh.h">
+      <Filter>Decimation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\QuadricDecimationMesh.h">
+      <Filter>Decimation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\SimpleDecimationMesh.h">
+      <Filter>Decimation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\Geometry.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\HalfEdgeMesh.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\Mesh.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\SimpleMesh.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\LineStrip.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\FrameMain.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLAxis.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLCamera.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLGridPlane.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLObject.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLViewer.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\ConjugateGradient.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\ConstantVectorField.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Function3D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Interpolator.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Matrix4x4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Matrix4x4_Impl.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\TrilinearInterpolator.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Vector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Volume.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\VortexVectorField.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\AdaptiveLoopSubdivisionMesh.h">
+      <Filter>Subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\LoopSubdivisionMesh.h">
+      <Filter>Subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\StrangeSubdivisionMesh.h">
+      <Filter>Subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\Subdivision.h">
+      <Filter>Subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\UniformCubicSpline.h">
+      <Filter>Subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\UniformCubicSplineSubdivisionCurve.h">
+      <Filter>Subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\BitMask3D.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\BlackWhiteColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\ColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\ColorMapFactory.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\GLObjectPlayback.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\GreenRedColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Heap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\HotColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\HSVColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\IsoContourColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\JetColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\MarchingCubes.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\MarchingCubesTable.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\ObjIO.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Stopwatch.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\trackball.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Console.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Decimation">
+      <UniqueIdentifier>{4FEADF0D-EBC6-3147-8A4C-B1F3CA5E91DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{3E4B1647-A21E-3DCF-9C4E-691E58210DA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{C9CCDB1B-70BA-385C-A771-A04BFAED5708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{E92A68A0-F300-3B69-80BB-D072F94110B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Subdivision">
+      <UniqueIdentifier>{FD7AD4BA-98E3-3453-8AB2-BDA332D93110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{12940B2A-F2BF-379A-B1BB-C96851A49F71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

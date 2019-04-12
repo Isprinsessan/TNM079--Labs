@@ -1,0 +1,44 @@
+﻿  Building Custom Rule C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/CMakeFiles/generate.stamp is up-to-date.
+  DecimationMesh.cpp
+  QuadricDecimationMesh.cpp
+  SimpleDecimationMesh.cpp
+C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\SimpleDecimationMesh.cpp(40): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  HalfEdgeMesh.cpp
+C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\HalfEdgeMesh.cpp(541): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Mesh.cpp
+  SimpleMesh.cpp
+  LineStrip.cpp
+  FrameMain.cpp
+  GLAxis.cpp
+  GLGridPlane.cpp
+  GLObject.cpp
+  GLViewer.cpp
+  GUI.cpp
+  TrilinearInterpolator.cpp
+  AdaptiveLoopSubdivisionMesh.cpp
+  LoopSubdivisionMesh.cpp
+  UniformCubicSpline.cpp
+C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\UniformCubicSpline.cpp(50): warning C4244: 'initializing': conversion from 'float' to '::size_t', possible loss of data
+C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\UniformCubicSpline.cpp(51): warning C4244: 'initializing': conversion from 'float' to '::size_t', possible loss of data
+  UniformCubicSplineSubdivisionCurve.cpp
+  BlackWhiteColorMap.cpp
+  ColorMap.cpp
+  Generating Code...
+  Compiling...
+  ColorMapFactory.cpp
+  GLObjectPlayback.cpp
+  GreenRedColorMap.cpp
+  Heap.cpp
+  HotColorMap.cpp
+  HSVColorMap.cpp
+  IsoContourColorMap.cpp
+  JetColorMap.cpp
+  MarchingCubes.cpp
+  ObjIO.cpp
+  trackball.cpp
+  Util.cpp
+  Console.cpp
+  main.cpp
+  Generating Code...
+  MoA.vcxproj -> C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\x64\Release\MoA.exe

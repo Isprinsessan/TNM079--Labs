@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CC6E075B-CB4B-3728-9717-2AF7CA2B97EE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>MoA</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MoA.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MoA</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MoA.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MoA</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MoA.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MoA</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MoA.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MoA</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxbase28d.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28d_core.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28d_gl.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxpngd.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxtiffd.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxjpegd.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxzlibd.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxregexd.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxexpatd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/Debug/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/Debug/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxbase28d.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28d_core.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28d_gl.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxpngd.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxtiffd.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxjpegd.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxzlibd.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxregexd.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxexpatd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/Debug/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/Debug/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxbase28.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxpng.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxtiff.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxzlib.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxregex.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/Release/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/Release/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxbase28.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxpng.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxtiff.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxzlib.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxregex.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/Release/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/Release/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxbase28.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxpng.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxtiff.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxzlib.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxregex.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/MinSizeRel/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/MinSizeRel/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxbase28.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxpng.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxtiff.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxzlib.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxregex.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/MinSizeRel/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/MinSizeRel/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxbase28.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxpng.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxtiff.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxzlib.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxregex.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/RelWithDebInfo/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/RelWithDebInfo/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\glew\include;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\.;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxbase28.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxpng.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxtiff.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxzlib.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxregex.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_static.lib;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/RelWithDebInfo/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/bin/RelWithDebInfo/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student" "-BC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build" --check-stamp-file "C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student" "-BC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build" --check-stamp-file "C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\UsewxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCXXCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeRCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeSystem.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMake\FindwxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Fluid\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Levelset\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\UsewxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCXXCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeRCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeSystem.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMake\FindwxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Fluid\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Levelset\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student" "-BC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build" --check-stamp-file "C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student" "-BC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build" --check-stamp-file "C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\UsewxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCXXCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeRCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeSystem.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMake\FindwxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Fluid\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Levelset\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\UsewxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCXXCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeRCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeSystem.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMake\FindwxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Fluid\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Levelset\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student" "-BC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build" --check-stamp-file "C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student" "-BC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build" --check-stamp-file "C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\UsewxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCXXCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeRCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeSystem.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMake\FindwxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Fluid\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Levelset\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\UsewxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCXXCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeRCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeSystem.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMake\FindwxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Fluid\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Levelset\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student" "-BC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build" --check-stamp-file "C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student" "-BC:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build" --check-stamp-file "C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\UsewxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCXXCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeRCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeSystem.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMake\FindwxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Fluid\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Levelset\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/tnm079-student/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\UsewxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeCXXCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeRCCompiler.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\3.14.0\CMakeSystem.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMake\FindwxWidgets.cmake;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Fluid\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Levelset\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\CMakeLists.txt;C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\DecimationInterface.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\DecimationMesh.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\DecimationMesh.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\QuadricDecimationMesh.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\QuadricDecimationMesh.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\SimpleDecimationMesh.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\SimpleDecimationMesh.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\Geometry.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\HalfEdgeMesh.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\HalfEdgeMesh.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\Mesh.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\Mesh.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\SimpleMesh.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\SimpleMesh.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\LineStrip.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Geometry\LineStrip.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\FrameMain.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\FrameMain.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLAxis.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLAxis.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLCamera.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLGridPlane.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLGridPlane.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLObject.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLObject.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLViewer.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GLViewer.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GUI.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\GUI\GUI.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\ConjugateGradient.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\ConstantVectorField.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Function3D.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Interpolator.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Matrix4x4.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Matrix4x4_Impl.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\TrilinearInterpolator.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\TrilinearInterpolator.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Vector3.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Vector4.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\Volume.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Math\VortexVectorField.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\AdaptiveLoopSubdivisionMesh.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\AdaptiveLoopSubdivisionMesh.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\LoopSubdivisionMesh.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\LoopSubdivisionMesh.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\StrangeSubdivisionMesh.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\Subdivision.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\UniformCubicSpline.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\UniformCubicSpline.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\UniformCubicSplineSubdivisionCurve.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Subdivision\UniformCubicSplineSubdivisionCurve.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\BitMask3D.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\BlackWhiteColorMap.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\BlackWhiteColorMap.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\ColorMap.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\ColorMap.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\ColorMapFactory.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\ColorMapFactory.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\GLObjectPlayback.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\GLObjectPlayback.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\GreenRedColorMap.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\GreenRedColorMap.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Heap.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Heap.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\HotColorMap.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\HotColorMap.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\HSVColorMap.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\HSVColorMap.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\IsoContourColorMap.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\IsoContourColorMap.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\JetColorMap.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\JetColorMap.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\MarchingCubes.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\MarchingCubes.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\MarchingCubesTable.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\ObjIO.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\ObjIO.h" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Stopwatch.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\trackball.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\trackball.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Util.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Util.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Console.cpp" />
+    <ClInclude Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Util\Console.h" />
+    <ClCompile Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\Build\ZERO_CHECK.vcxproj">
+      <Project>{EC5B3C1A-4E0D-354C-BE2D-167DAE646C1F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

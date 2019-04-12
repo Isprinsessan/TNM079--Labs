@@ -1,0 +1,39 @@
+﻿  DecimationMesh.cpp
+  QuadricDecimationMesh.cpp
+  SimpleDecimationMesh.cpp
+C:\Users\Erik\Documents\Skola\TNM079 Modellering och animering\tnm079-student\Decimation\SimpleDecimationMesh.cpp(40): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  HalfEdgeMesh.cpp
+  Mesh.cpp
+  SimpleMesh.cpp
+  LineStrip.cpp
+  FrameMain.cpp
+  GLAxis.cpp
+  GLGridPlane.cpp
+  GLObject.cpp
+  GLViewer.cpp
+  GUI.cpp
+  TrilinearInterpolator.cpp
+  AdaptiveLoopSubdivisionMesh.cpp
+  LoopSubdivisionMesh.cpp
+  UniformCubicSpline.cpp
+  UniformCubicSplineSubdivisionCurve.cpp
+  BlackWhiteColorMap.cpp
+  ColorMap.cpp
+  Generating Code...
+  Compiling...
+  ColorMapFactory.cpp
+  GLObjectPlayback.cpp
+  GreenRedColorMap.cpp
+  Heap.cpp
+  HotColorMap.cpp
+  HSVColorMap.cpp
+  IsoContourColorMap.cpp
+  JetColorMap.cpp
+  MarchingCubes.cpp
+  ObjIO.cpp
+  trackball.cpp
+  Util.cpp
+  Console.cpp
+  main.cpp
+  Generating Code...
+wxbase28d.lib(baselib_event.obj) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'

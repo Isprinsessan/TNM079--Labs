@@ -1,0 +1,3 @@
+C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/CMakeFiles/MoA.dir
+C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Erik/Documents/Skola/TNM079 Modellering och animering/Build/CMakeFiles/ZERO_CHECK.dir
